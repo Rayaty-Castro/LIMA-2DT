@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+
+<h1> Tabelas de nomes </h1>
+
+<body>
+    <!-- ------------- Tabelas em HTML ------------- -->
+     <table border="1"> <!--border= "1" serve para criar uma borda na tabela --> 
+        <!-- Cabeçalho -->
+        <thead>
+            <tr>  <!-- linha da tabela --> 
+                <th>Nome</th> <!-- coluna da tabela -->
+                <th>Idade</th><!-- coluna da tabela -->
+                <th>cpf</th><!-- coluna da tabela -->
+                <th>E-mail</th><!-- coluna da tabela -->
+            </tr>
+
+        </thead>
+
+        <!-- Corpo -->
+        <tbody>
+            <tr>  <!-- linha da tabela --> 
+                <td>Matheus</td> <!-- coluna da tabela -->
+                <td>27</td><!-- coluna da tabela -->
+                <td>123.456.789-00</td><!-- coluna da tabela -->
+                <td>matheus@email.com</td><!-- coluna da tabela -->
+            </tr>
+
+            <tr>  <!-- linha da tabela --> 
+                <td>João</td> <!-- coluna da tabela -->
+                <td>25</td><!-- coluna da tabela -->
+                <td>987.654.321-00</td><!-- coluna da tabela -->
+                <td>joao@email.com</td><!-- coluna da tabela -->
+            </tr>
+            <tr>  <!-- linha da tabela --> 
+                <td>Maria</td> <!-- coluna da tabela -->
+                <td>30</td><!-- coluna da tabela -->
+                <td>111.222.333-44</td><!-- coluna da tabela -->
+                <td>maria@email.com</td><!-- coluna da tabela -->
+            </tr>
+            <tr>  <!-- linha da tabela --> 
+                <td>Pedro</td> <!-- coluna da tabela -->
+                <td>35</td><!-- coluna da tabela -->
+                <td>555.666.777-88</td><!-- coluna da tabela -->
+                <td>pedro@email.com</td><!-- coluna da tabela -->
+            </tr>
+
+
+        </tbody>
+    
+    </table>
+<!-- -------- mesl=clando tabela -->
+
+<h2>Tabela de Filmes</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+           <th colspan="4"> Lista de filmes</th>
+        </tr>
+        <tr>
+
+            <th>titulo</th>
+            <th>ano de lançamento</th>
+            <th>genero</th>
+            <th>nota</th>
+        
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+         <td>Hobbit</td> 
+         <td>2001</td>
+        <td rowspan="2">Aventura/Fantasia</td>
+        <td>8.8</td>  
+        </tr>
+        <tr>
+            <td>O Senhor dos Anéis</td>
+            <td>2003</td>
+           
+            <td>9.0</td>
+        </tr>
+            
+    </tbody>
+
+
+
+</table>
+
+
+
+</body>
+
+</html>
