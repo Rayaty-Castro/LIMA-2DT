@@ -1,0 +1,14 @@
+button{
+    background-color: orange;
+    padding: 10px 5px; /* cuida do espaço interno, ordem cima - direita - baixo - esquerda ,com dois valores o primeiro e horizontal e o segundo e vertical, com 3 ele meche apenas com cima, esquerda e direita*/
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 1opx;
+}
+
+.bnt{
+    background-color: rgb(0, 255, 238);
+    padding: 10px 5px; 
+    border: 2px solid #000;
+    border-radius: 20px;
+}

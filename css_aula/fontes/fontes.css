@@ -1,0 +1,27 @@
+h1{
+    /*font-size: 50px;  Tamanho da fonte com pixel*/
+   /*font-size: 2em; tamanho da fonte em equivale a 16 ppx*/
+   /*font-size: 10vw; equivale a quantos por cento o texto fica de acordo com a porcentagem da tela*/
+   /*font-family: ; Familia da font*/
+   /*font-weight: 100; espssura da font*/
+   /*line-height: ;  define a distancia das linhas do mesmo texto*/
+   /*letter-spacing: ; define a distancia das letras do mesmo texto*/
+   color: cadetblue;
+   background-color: pink;
+   padding: 20px;
+}
+
+h2{ font-size: 45px;
+    color: bisque;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+h4{}
+
+h5{}
+
+h6{}

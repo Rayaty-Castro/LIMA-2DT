@@ -1,0 +1,19 @@
+.cor1{
+    /* Nome da cor*/
+    color: aqua;
+}
+
+.cor2{
+    /* codigo exadecimal */
+    color: #ff0000;
+}
+
+.cor3{
+    /* RGB da cor */
+    color: rgb(0, 255 ,0);
+}
+
+.cor4{
+    /* Rgba da cor, serve pra dar opacidade a cor*/
+    color: rgba(60, 255 , 100 , 0.1);
+}

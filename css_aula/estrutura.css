@@ -1,8 +1,19 @@
-/*seletor{
+/* seletor{
     propriedade: valor;
 }  
-*/
 
-p{
+.paragrafo{
     color:crimson;
+} */
+
+.time-azul{
+    color:aqua
+}
+
+.time-vermelho{
+    color:red
+}
+
+.time-verde{
+    color:green
 }
