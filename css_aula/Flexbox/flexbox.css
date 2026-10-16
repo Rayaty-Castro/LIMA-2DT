@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-direction: column;
+    /*flex-direction: column; muda o eixo principal (justify-content)
+    /* flex-directiom: row; ele deixa a ordem padrão*/
+    /*flex-direction: row-reverse; ele inverte tudo*/
+   /* justify-content: center; justify-content cuida da linha principal */
+    /*justify-content: space-between; ele da o espaços iguais entre todos os elementos sem espaçamento dasbordas */
+    /* justify-content: space-around; ele diminui o espaço entre as figuras mas dão distancia das bordas */
+    /* justify-content: space-evenly; ele da espaçamento igual entre a borda e os objetos  */
+   /* align-items: center;  cuida da vertical*/
+   
+   height: 500px;
+    background-color: lightgray;
+}
+
+.item1, .item2, .item3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.item1{
+    background-color: blue;
+}
+
+.item2{
+background-color: blueviolet;
+}
+
+.item3{
+    background-color: red;
+}
